@@ -16,18 +16,23 @@ button{
     right: 50%;
     height: 100px;
 }
+ 
+.main-div{
+    height: 100vh;
+    width: 80%;
+    
+}
 
-
-button, p{
+button{
     animation: fade 2s ease forwards;
 }
 
-@keyframes fade{
+/* @keyframes fade{
     from{
         opacity: 1;
         pointer-events: all; /*gets raid of all traces of the button*/
-    } to{
+  /*  } to{
         opacity: 0;
         pointer-events: none;
     }
-}
+} */

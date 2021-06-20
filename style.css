@@ -11,10 +11,11 @@ button{
     border-radius: 33px;
     color: white;
     background-color: green;
-    position: fixed;
+    position: relative;
     top: 404px;
-    right: 50%;
+    /* right: 50%; */
     height: 100px;
+    
 }
  
 .main-div{
@@ -22,12 +23,15 @@ button{
     width: 80%;
     background-color: aqua;
     margin: auto;
+    text-align: center;
 }
 
 button{
     animation: fade 2s ease forwards;
 }
-
+.section-2{
+    height: 100vh;
+}
 /* @keyframes fade{
     from{
         opacity: 1;

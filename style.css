@@ -8,10 +8,20 @@ button{
     width: 200px;
     padding: 4px;
     border: 1px solid green;
-    border-radius: 13px;
+    border-radius: 33px;
     color: white;
     background-color: green;
     position: fixed;
     top: 404px;
     right: 50%;
+    height: 100px;
+}
+
+
+button{
+    animation: ;
+}
+
+@keyframes{
+    
 }

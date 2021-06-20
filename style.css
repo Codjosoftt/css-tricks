@@ -31,6 +31,9 @@ button{
 }
 .section-2{
     height: 100vh;
+    background-color: yellow;
+    width: 80%;
+    margin: auto;
 }
 /* @keyframes fade{
     from{
